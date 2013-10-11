@@ -8,6 +8,7 @@ inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 nnoremap <F5> :UndotreeToggle<cr>
 " ### UndoTree settings <END> ###
 
+" ### Tabular settings <START> ###
 let mapleader=','
 if exists(":Tabularize")
 	nmap <Leader>a= :Tabularize /=<CR>
@@ -15,3 +16,8 @@ if exists(":Tabularize")
 	nmap <Leader>a: :Tabularize /:\zs<CR>
 	vmap <Leader>a: :Tabularize /:\zs<CR>
 endif
+" ### Tabular settings <END> ###
+
+" ### PHP Folding settings <START> ###
+let g:DisableAutoPHPFolding = 1
+" ### PHP Folding settings <END> ###
