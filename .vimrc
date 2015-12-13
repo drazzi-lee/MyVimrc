@@ -21,3 +21,12 @@ endif
 " ### PHP Folding settings <START> ###
 let g:DisableAutoPHPFolding = 1
 " ### PHP Folding settings <END> ###
+
+set mouse=
+set encoding=utf-8
+set fileencodings=utf-8,gb18030,gbk,gb2312,cp936
+set fileencoding=utf-8
+set tabstop=4
+set shiftwidth=4
+set smartindent
+set smarttab
